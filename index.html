@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="head">
+                Weather Api
+            </div>
+            <div class="in">
+                <div class="in1">
+                    <label for=""> Location</label>
+                    <input type="text" placeholder="Enter the location" class="loc">
+                </div>
+                <div class="in2">
+                    <label for="">Access Token</label>
+                    <input type="text" value="W2W7RRXYV2KBZECC7Q4PJ2QX8" placeholder="Enter the Access Token from 'Free Weather API|Visual Crossing' website" class="acs-key">
+                </div>
+                <div class="err"></div>
+                <div class="sub" onclick="getData()">
+                    Sumbit
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="bottom">
+            <div class="head">Weather Data</div>
+            <div class="data">
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td >Location : </td></tr>
+                        <tr>
+                            <td>Lat :  </td>
+                            <td>Long : </td>
+                        </tr>
+                        <tr>
+                            <td>Time Zone :</td>
+                            <td>Condition :</td>
+                        </tr>
+                        <tr>
+                            <td>Wind Speed :</td>
+                            <td >Description:</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure :</td>
+                        </tr>
+                       
+                        <tr>
+                            <td>Humidity : </td>
+                        </tr>
+                        <tr>
+                            <td>Wind Direction :</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>UV Index : </td>
+                        </tr>
+                        <tr>
+                            <td>Feels Like : </td>
+                        </tr>
+                        
+                    </tbody>
+                    
+
+                </table>
+
+
+            </div>
+        </div>
+        <script src="./script.js"></script>
+</body>
+
+</html>
